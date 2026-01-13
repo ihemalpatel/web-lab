@@ -4,24 +4,20 @@ body {
   padding: 2rem;
   background: #f6f8fa;
 }
-header {
-  background: #2c3e50;
-  padding: 1rem 2rem;
+[data-theme="dark"] {
+  background: #1a1a1a;
+  color: #ffffff;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 2rem;
-  margin: 0;
-  padding: 0;
+[data-theme="dark"] header {
+  background: #34495e;
 }
 
-nav a {
+button {
+  background: #3498db;
   color: white;
-  text-decoration: none;
-}
-
-nav a:hover {
-  text-decoration: underline;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
 }
