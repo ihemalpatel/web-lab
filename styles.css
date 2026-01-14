@@ -21,6 +21,7 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
+<<<<<<< HEAD
 /* Improve dark theme contrast */
 [data-theme="dark"] {
   background: #121212;
@@ -34,3 +35,8 @@ button {
 [data-theme="dark"] a {
   color: #4fc3f7;  /* Brighter links */
 }
+=======
+.slogan {
+  color: #ff4081;  /* Bright pink - we might hate this later */
+}
+>>>>>>> release/1.0.0
